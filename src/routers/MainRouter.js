@@ -14,19 +14,19 @@ export const MainRouter = () => {
             <nav className='nav'>
                 <ul>
                     <li>
-                        <NavLink to="/home" className={({isActive}) => { return isActive?'active':''}}>HOME</NavLink>
+                        <NavLink to="/home" className={({ isActive }) => { return isActive ? 'active' : '' }}>HOME</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact" className={({isActive}) => { return isActive?'active':''}}>CONTACT</NavLink>
+                        <NavLink to="/contact" className={({ isActive }) => { return isActive ? 'active' : '' }}>CONTACT</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/item" className={({isActive}) => { return isActive?'active':''}}>ITEM</NavLink>
+                        <NavLink to="/item" className={({ isActive }) => { return isActive ? 'active' : '' }}>ITEM</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/person" className={({isActive}) => { return isActive?'active':''}}>PERSON</NavLink>
+                        <NavLink to="/person" className={({ isActive }) => { return isActive ? 'active' : '' }}>PERSON</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/bomb" className={({isActive}) => { return isActive?'active':''}}>BOMB</NavLink>
+                        <NavLink to="/bomb" className={({ isActive }) => { return isActive ? 'active' : '' }}>BOMB</NavLink>
                     </li>
                 </ul>
             </nav>
